@@ -11,6 +11,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("cmu")) {
             return "Are you looking for CeNtRaL mIcHiGaN uNiVeRsItY?";
         }
+        if (query.toLowerCase().contains("your name")) {
+            return "LF-Team";
+        }
         return "";
     }
 }
